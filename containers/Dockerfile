@@ -9,12 +9,6 @@ RUN pip3.5 install -U pip
 RUN pip3.5 install -U jupyter nano
 RUN pip3.5 install -U py4j
 
-# Install Scipy Stack
-# RUN pip3.5 install -U  numpy scipy matplotlib
-# RUN pip3.5 install -U "pandas>=0.14.0"
-# RUN pip3.5 install -U "scikit-learn>=0.14.0"
-# RUN pip3.5 install seaborn
-
 COPY requirements.txt ./
 RUN pip3.5 install -r requirements.txt 
 
