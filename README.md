@@ -5,4 +5,4 @@ Materials for "Machine Learning on Big Data" course
 
 В рамках курса мы будем использовать Docker container с Hadoop, для того чтобы эмулировать кластер и запускать различные примеры.
 
-См. [Docker Tutorial](https://github.com/ishugaepov/MLBD/blob/master/containers/Docker-tutorial.md)
+См. [Docker Tutorial](https://github.com/ishugaepov/MLBD/blob/master/docker/Docker-tutorial.md)
