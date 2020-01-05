@@ -21,7 +21,7 @@ Your container might have memory limits that are different from the actual limit
 ## Run Container
 
 Для того чтобы запустить Docker контейнер с Hadoop нужно сделать следующее:
-1. ```cd ./containers```
+1. ```cd ./docker```
 2. ```bash build.sh``` 
 3. ```bash run.sh```
 
