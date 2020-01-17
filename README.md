@@ -14,7 +14,7 @@ Materials for "Machine Learning on Big Data" course
 
 ## Программа курса
 
-Курс состоит из трех частей.
+[Introduction](https://github.com/ishugaepov/MLBD/tree/master/intro/slides)
 
 ### Методы и системы обработки больших данных
 
