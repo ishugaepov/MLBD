@@ -47,6 +47,8 @@ Materials for "Machine Learning on Big Data" course
 
 #### Порядок выполнения и отправки задания на проверку
 
+Задания находятся в `<topic>/notebooks/<practice_name>.ipynb`.
+
 1. Убедитесь, что ваш fork репозиторий содержит все актуальные изменения данного репозитория ([GitHub Help: Syncing a fork](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/syncing-a-fork))
 2. Выполните задание в отдельной ветке, например, `practice_1` ([GitHub Help: Branches](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging)).
 3. Сделайте Pull Request (`<current_practice_branch> -> master`), назначьте PR на ishugaepov ([GitHub Help: PRs](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request)). 
@@ -56,3 +58,9 @@ Materials for "Machine Learning on Big Data" course
 
 * PR с выполненным заданием должен быть отправлен на проверку не позднее времени начала занятия, следующего за занятием, на котором было выдано задание.
 * По прошествии дедлайна, в рамках PR можно только исправлять замечания, но не отправлять на проверку новые задачи.
+
+## Домашние задания
+
+1. TBD
+2. TBD
+3. TBD
