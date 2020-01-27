@@ -40,3 +40,19 @@ Materials for "Machine Learning on Big Data" course
 14. How to conduct AB Tests (Experiment Design, Execution, Analysis)
 15. Results Analysis ((Multiple) Hypothesis testing, Sensitivity, Power)
 16. Heterogeneous Treatment Effect
+
+## Практики
+
+Для выполнения практик нужно сделать fork ([GitHub Help: Forks](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/working-with-forks)) данного репозитория.
+
+#### Порядок выполнения и отправки задания на проверку
+
+1. Убедитесь, что ваш fork репозиторий содержит все актуальные изменения данного репозитория ([GitHub Help: Syncing a fork](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/syncing-a-fork))
+2. Выполните задание в отдельной ветке, например, `practice_1` ([GitHub Help: Branches](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging)).
+3. Сделайте Pull Request (`<current_practice_branch> -> master`), назначьте PR на ishugaepov ([GitHub Help: PRs](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request)). 
+4. После проверки PR, ревьювер либо оставляет комментарии с замечаниями либо мерджит текущую ветку в мастер вашего репозитория.
+
+#### Deadlines
+
+* PR с выполненным заданием должен быть отправлен на проверку не позднее времени начала занятия, следующего за занятием, на котором было выдано задание.
+* По прошествии дедлайна, в рамках PR можно только исправлять замечания, но не отправлять на проверку новые задачи.
