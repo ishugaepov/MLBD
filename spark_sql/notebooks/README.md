@@ -2,6 +2,8 @@
 
 In order to use `Spark SQL` we need to install recent version of spark.
 
+0. Shutdown Jupyter
+
 #### Update java
 
 1. `sudo yum -y remove java`
@@ -22,6 +24,9 @@ Optionaly you can install nano: `yum install -y nano`
 8. `export SPARK_HOME=/usr/local/spark`
 9. `export PATH=$SPARK_HOME/bin:$PATH`
 10. `export PYTHONPATH=$SPARK_HOME/python:$SPARK_HOME/python/lib/py4j-0.10.7-src.zip`
+
+
+Now you can start Jupyter.
 
 
 ### Known Issues
