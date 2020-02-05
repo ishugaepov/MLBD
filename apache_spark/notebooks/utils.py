@@ -4,3 +4,6 @@ class Rating:
         self.movie_id = movie_id
         self.rating = rating
         self.timestamp = timestamp
+     
+    def __str__(self):
+        return f"Rating(user_id={self.user_id}, movie_id={self.movie_id}, timestamp={self.timestamp})"
