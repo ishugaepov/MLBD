@@ -20,7 +20,7 @@ Materials for "Machine Learning on Big Data" course
 
 1. [Hadoop and MapReduce](https://github.com/ishugaepov/MLBD/tree/master/hadoop_map_reduce)
 2. [Apache Spark](https://github.com/ishugaepov/MLBD/tree/master/apache_spark)
-3. Spark SQL
+3. [Spark SQL](https://github.com/ishugaepov/MLBD/tree/master/spark_sql)
 
 ### Машинное обучение на больших данных
 
