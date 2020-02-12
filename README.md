@@ -24,7 +24,7 @@ Materials for "Machine Learning on Big Data" course
 
 ### Машинное обучение на больших данных
 
-4. Spark MLLib Overview
+4. [Distributed ML Introduction](https://github.com/ishugaepov/MLBD/tree/master/distributed_ml_intro)
 5. Stochastic Gradient Descent, Linear Models, Neural Networks
 6. Hyperparameters Optimization
 7. Gradient Boosting Decision Tree
