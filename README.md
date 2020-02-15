@@ -61,6 +61,6 @@ Materials for "Machine Learning on Big Data" course
 
 ## Домашние задания
 
-1. TBD
+1. [Kaggle: CTR Prediction](https://www.kaggle.com/c/mlbd-20-ctr-prediction-1)
 2. TBD
 3. TBD
