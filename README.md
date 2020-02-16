@@ -10,11 +10,11 @@ Materials for "Machine Learning on Big Data" course
   <summary>Список тем</summary>
 
 #### 1. [Hadoop and MapReduce](/hadoop_map_reduce)
-   <ins><i>Keywords:</i></ins> Google FS (master, chunkservers), Hadoop, HDFS (NameNode, DataNode), MapReduce (master, workers)
+>   <ins><i>Keywords:</i></ins> Google FS (master, chunkservers), Hadoop, HDFS (NameNode, DataNode), MapReduce (master, workers)
 #### 2. [Apache Spark](/apache_spark)
-  <ins><i>Keywords:</i></ins> Pig, Hive, Spark (RDDs, transformations, actions, lineage graph, fault-tolerance, persist, driver, workers, stages, dependencies, tasks, partition)
+>  <ins><i>Keywords:</i></ins> Pig, Hive, Spark (RDDs, transformations, actions, lineage graph, fault-tolerance, persist, driver, workers, stages, dependencies, tasks, partition)
 #### 3. [Spark SQL](/spark_sql)
-  <ins><i>Keywords:</i></ins> Shark, DataFrames (DSL, cache, UDFs), Catalyst (tree, rule, catalyst in spark-sql)
+>  <ins><i>Keywords:</i></ins> Shark, DataFrames (DSL, cache, UDFs), Catalyst (tree, rule, catalyst in spark-sql)
 
 </details>
 
@@ -23,11 +23,11 @@ Materials for "Machine Learning on Big Data" course
   <summary>Список тем</summary>
 
 #### 4. [Distributed ML Introduction](/distributed_ml_intro)
-  <ins><i>Keywords:</i></ins> Stochastic Gradient Descent, Data/Model Parallelism, General Purpose Distributed Computing(MapReduce, MR SGD, SparkNet, MLlib), Natively Distributed ML Systems (Parameter Server, DistBelief, TensorFlow, AllReduce, Horovod)
+>  <ins><i>Keywords:</i></ins> Stochastic Gradient Descent, Data/Model Parallelism, General Purpose Distributed Computing(MapReduce, MR SGD, SparkNet, MLlib), Natively Distributed ML Systems (Parameter Server, DistBelief, TensorFlow, AllReduce, Horovod)
 #### 5. Categorical Features in Large Scale ML
-  <ins><i>Keywords:</i></ins> One-hot encoding, Cross features, Factorization Machines (FM, FFM), Neural Networks (Deep Crossing, Deep & Cross, DeepFM)
+>  <ins><i>Keywords:</i></ins> One-hot encoding, Cross features, Factorization Machines (FM, FFM), Neural Networks (Deep Crossing, Deep & Cross, DeepFM)
 #### 6. Gradient Boosting Decision Tree
-  <ins><i>Keywords:</i></ins> Categorical features (Naive Bayes, Mean Target Encoding), XGBoost, CatBoost
+>  <ins><i>Keywords:</i></ins> Categorical features (Naive Bayes, Mean Target Encoding), XGBoost, CatBoost
 #### 7. Hyperparameters Optimization
 #### 8. Word2Vec, k-Nearest Neighbors
 #### 9. Collaborative Filtering (ALS)
