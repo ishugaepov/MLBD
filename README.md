@@ -17,6 +17,8 @@ Materials for "Machine Learning on Big Data" course
 [Introduction](https://github.com/ishugaepov/MLBD/tree/master/intro/slides)
 
 ### Методы и системы обработки больших данных
+<details>
+  <summary>Список тем</summary>
 
 #### 1. [Hadoop and MapReduce](https://github.com/ishugaepov/MLBD/tree/master/hadoop_map_reduce)
    <ins><i>Keywords:</i></ins> Google FS (master, chunkservers), Hadoop, HDFS (NameNode, DataNode), MapReduce (master, workers)
@@ -25,7 +27,11 @@ Materials for "Machine Learning on Big Data" course
 #### 3. [Spark SQL](https://github.com/ishugaepov/MLBD/tree/master/spark_sql)
   <ins><i>Keywords:</i></ins> Shark, DataFrames (DSL, cache, UDFs), Catalyst (tree, rule, catalyst in spark-sql)
 
+</details>
+
 ### Машинное обучение на больших данных
+<details>
+  <summary>Список тем</summary>
 
 #### 4. [Distributed ML Introduction](https://github.com/ishugaepov/MLBD/tree/master/distributed_ml_intro)
   <ins><i>Keywords:</i></ins> Stochastic Gradient Descent, Data/Model Parallelism, General Purpose Distributed Computing(MapReduce, MR SGD, SparkNet, MLlib), Natively Distributed ML Systems (Parameter Server, DistBelief, TensorFlow, AllReduce, Horovod)
@@ -41,11 +47,17 @@ Materials for "Machine Learning on Big Data" course
 #### 12. Online Learning
 #### 13. Algorithms on Graphs
 
+</details>
+
 ### Проведение онлайн экспериментов
+<details>
+  <summary>Список тем</summary>
 
 #### 14. How to conduct AB Tests (Experiment Design, Execution, Analysis)
 #### 15. Results Analysis ((Multiple) Hypothesis testing, Sensitivity, Power)
 #### 16. Heterogeneous Treatment Effect
+
+</details>
 
 ## Практики
 
