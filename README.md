@@ -18,28 +18,34 @@ Materials for "Machine Learning on Big Data" course
 
 ### Методы и системы обработки больших данных
 
-1. [Hadoop and MapReduce](https://github.com/ishugaepov/MLBD/tree/master/hadoop_map_reduce)
-2. [Apache Spark](https://github.com/ishugaepov/MLBD/tree/master/apache_spark)
-3. [Spark SQL](https://github.com/ishugaepov/MLBD/tree/master/spark_sql)
+#### 1. [Hadoop and MapReduce](https://github.com/ishugaepov/MLBD/tree/master/hadoop_map_reduce)
+   <ins><i>Keywords:</i></ins> Google FS (master, chunkservers), Hadoop, HDFS (NameNode, DataNode), MapReduce (master, workers)
+#### 2. [Apache Spark](https://github.com/ishugaepov/MLBD/tree/master/apache_spark)
+  <ins><i>Keywords:</i></ins> Pig, Hive, Spark (RDDs, transformations, actions, lineage graph, fault-tolerance, persist, driver, workers, stages, dependencies, tasks, partition)
+#### 3. [Spark SQL](https://github.com/ishugaepov/MLBD/tree/master/spark_sql)
+  <ins><i>Keywords:</i></ins> Shark, DataFrames (DSL, cache, UDFs), Catalyst (tree, rule, catalyst in spark-sql)
 
 ### Машинное обучение на больших данных
 
-4. [Distributed ML Introduction](https://github.com/ishugaepov/MLBD/tree/master/distributed_ml_intro)
-5. Stochastic Gradient Descent, Linear Models, Neural Networks
-6. Hyperparameters Optimization
-7. Gradient Boosting Decision Tree
-8. Word2Vec, k-Nearest Neighbors
-9. Collaborative Filtering (ALS)
-10. Latent Dirichlet Allocation
-11. Dimensionality Reduction
-12. Online Learning
-13. Algorithms on Graphs
+#### 4. [Distributed ML Introduction](https://github.com/ishugaepov/MLBD/tree/master/distributed_ml_intro)
+  <ins><i>Keywords:</i></ins> Stochastic Gradient Descent, Data/Model Parallelism, General Purpose Distributed Computing(MapReduce, MR SGD, SparkNet, MLlib), Natively Distributed ML Systems (Parameter Server, DistBelief, TensorFlow, AllReduce, Horovod)
+#### 5. Categorical Features in Large Scale ML
+  <ins><i>Keywords:</i></ins> One-hot encoding, Cross features, Factorization Machines (FM, FFM), Neural Networks (Deep Crossing, Deep & Cross, DeepFM)
+#### 6. Gradient Boosting Decision Tree
+  <ins><i>Keywords:</i></ins> Categorical features (Naive Bayes, Mean Target Encoding), XGBoost, CatBoost
+#### 7. Hyperparameters Optimization
+#### 8. Word2Vec, k-Nearest Neighbors
+#### 9. Collaborative Filtering (ALS)
+#### 10. Latent Dirichlet Allocation
+#### 11. Dimensionality Reduction
+#### 12. Online Learning
+#### 13. Algorithms on Graphs
 
 ### Проведение онлайн экспериментов
 
-14. How to conduct AB Tests (Experiment Design, Execution, Analysis)
-15. Results Analysis ((Multiple) Hypothesis testing, Sensitivity, Power)
-16. Heterogeneous Treatment Effect
+#### 14. How to conduct AB Tests (Experiment Design, Execution, Analysis)
+#### 15. Results Analysis ((Multiple) Hypothesis testing, Sensitivity, Power)
+#### 16. Heterogeneous Treatment Effect
 
 ## Практики
 
