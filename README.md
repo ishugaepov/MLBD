@@ -1,30 +1,19 @@
 # MLBD
 Materials for "Machine Learning on Big Data" course
 
-## Docker
-
-В рамках курса мы будем использовать Docker container с Hadoop, для того чтобы эмулировать кластер и запускать различные примеры.
-
-См. [Docker Tutorial](https://github.com/ishugaepov/MLBD/blob/master/docker/Docker-tutorial.md)
-
-## Datasets
-
-* [MovieLens](https://drive.google.com/file/d/1uNG51xzfUahzexIv-Ka1ylpvn8mVdFOQ/view?usp=sharing)
-* [Criteo Ads](https://labs.criteo.com/2014/02/download-kaggle-display-advertising-challenge-dataset/)
-
 ## Программа курса
 
-[Introduction](https://github.com/ishugaepov/MLBD/tree/master/intro/slides)
+[Introduction](/intro/slides)
 
 ### Методы и системы обработки больших данных
 <details>
   <summary>Список тем</summary>
 
-#### 1. [Hadoop and MapReduce](https://github.com/ishugaepov/MLBD/tree/master/hadoop_map_reduce)
+#### 1. [Hadoop and MapReduce](/hadoop_map_reduce)
    <ins><i>Keywords:</i></ins> Google FS (master, chunkservers), Hadoop, HDFS (NameNode, DataNode), MapReduce (master, workers)
-#### 2. [Apache Spark](https://github.com/ishugaepov/MLBD/tree/master/apache_spark)
+#### 2. [Apache Spark](/apache_spark)
   <ins><i>Keywords:</i></ins> Pig, Hive, Spark (RDDs, transformations, actions, lineage graph, fault-tolerance, persist, driver, workers, stages, dependencies, tasks, partition)
-#### 3. [Spark SQL](https://github.com/ishugaepov/MLBD/tree/master/spark_sql)
+#### 3. [Spark SQL](/spark_sql)
   <ins><i>Keywords:</i></ins> Shark, DataFrames (DSL, cache, UDFs), Catalyst (tree, rule, catalyst in spark-sql)
 
 </details>
@@ -33,7 +22,7 @@ Materials for "Machine Learning on Big Data" course
 <details>
   <summary>Список тем</summary>
 
-#### 4. [Distributed ML Introduction](https://github.com/ishugaepov/MLBD/tree/master/distributed_ml_intro)
+#### 4. [Distributed ML Introduction](/distributed_ml_intro)
   <ins><i>Keywords:</i></ins> Stochastic Gradient Descent, Data/Model Parallelism, General Purpose Distributed Computing(MapReduce, MR SGD, SparkNet, MLlib), Natively Distributed ML Systems (Parameter Server, DistBelief, TensorFlow, AllReduce, Horovod)
 #### 5. Categorical Features in Large Scale ML
   <ins><i>Keywords:</i></ins> One-hot encoding, Cross features, Factorization Machines (FM, FFM), Neural Networks (Deep Crossing, Deep & Cross, DeepFM)
@@ -82,3 +71,15 @@ Materials for "Machine Learning on Big Data" course
 1. [Kaggle: CTR Prediction](https://www.kaggle.com/c/mlbd-20-ctr-prediction-1)
 2. TBD
 3. TBD
+
+## Docker
+
+В рамках курса мы будем использовать Docker container с Hadoop, для того чтобы эмулировать кластер и запускать различные примеры.
+
+См. [Docker Tutorial](/docker/Docker-tutorial.md)
+
+## Datasets
+
+* [MovieLens](https://drive.google.com/file/d/1uNG51xzfUahzexIv-Ka1ylpvn8mVdFOQ/view?usp=sharing)
+* [Criteo Ads](https://labs.criteo.com/2014/02/download-kaggle-display-advertising-challenge-dataset/)
+
