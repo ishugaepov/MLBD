@@ -14,9 +14,9 @@ Optionaly you can install nano: `yum install -y nano`
 
 #### Update spark
 
-4. Download [spark-2.4.4](http://apache-mirror.rbc.ru/pub/apache/spark/spark-2.4.4/spark-2.4.4-bin-hadoop2.6.tgz)
-5. `tar -xvf spark-2.4.4-bin-hadoop2.6.tgz`
-6. `sudo mv spark-2.4.4-bin-hadoop2.6 /usr/local/spark`
+4. Download [spark-2.4.*](http://spark.apache.org/downloads.html) (Choose spark version 2.4 and pre-build for Apache Hadoop 2.6)
+5. `tar -xvf spark-2.4.*-bin-hadoop2.6.tgz`
+6. `sudo mv spark-2.4.*-bin-hadoop2.6 /usr/local/spark`
 
 #### Update paths
 
