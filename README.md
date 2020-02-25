@@ -26,8 +26,8 @@ Materials for "Machine Learning on Big Data" course
 >  <ins><i>Keywords:</i></ins> Stochastic Gradient Descent, Data/Model Parallelism, General Purpose Distributed Computing(MapReduce, MR SGD, SparkNet, MLlib), Natively Distributed ML Systems (Parameter Server, DistBelief, TensorFlow, AllReduce, Horovod)
 #### 5. [Categorical Features in Large Scale ML](/sgd_logreg_nn)
 >  <ins><i>Keywords:</i></ins> One-hot encoding, Cross features, Factorization Machines (FM, FFM), Neural Networks (Deep Crossing, Deep & Cross, DeepFM)
-#### 6. Gradient Boosting Decision Tree
->  <ins><i>Keywords:</i></ins> Categorical features (Naive Bayes, Mean Target Encoding), XGBoost, CatBoost
+#### 6. [Gradient Boosting Decision Tree](/gradient_boosting)
+>  <ins><i>Keywords:</i></ins> Categorical features (Naive Bayes, Mean Target Encoding), PLANET, XGBoost, CatBoost, SHAP values
 #### 7. Hyperparameters Optimization
 #### 8. Word2Vec, k-Nearest Neighbors
 #### 9. Collaborative Filtering (ALS)
