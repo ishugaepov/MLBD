@@ -1,45 +1,52 @@
 # MLBD
 Materials for "Machine Learning on Big Data" course
 
-## Docker
-
-В рамках курса мы будем использовать Docker container с Hadoop, для того чтобы эмулировать кластер и запускать различные примеры.
-
-См. [Docker Tutorial](https://github.com/ishugaepov/MLBD/blob/master/docker/Docker-tutorial.md)
-
-## Datasets
-
-* [MovieLens](https://drive.google.com/file/d/1uNG51xzfUahzexIv-Ka1ylpvn8mVdFOQ/view?usp=sharing)
-* [Criteo Ads](https://labs.criteo.com/2014/02/download-kaggle-display-advertising-challenge-dataset/)
-
 ## Программа курса
 
-[Introduction](https://github.com/ishugaepov/MLBD/tree/master/intro/slides)
+[Introduction](/intro/slides)
 
 ### Методы и системы обработки больших данных
+<details>
+  <summary>Список тем</summary>
 
-1. [Hadoop and MapReduce](https://github.com/ishugaepov/MLBD/tree/master/hadoop_map_reduce)
-2. [Apache Spark](https://github.com/ishugaepov/MLBD/tree/master/apache_spark)
-3. [Spark SQL](https://github.com/ishugaepov/MLBD/tree/master/spark_sql)
+#### 1. [Hadoop and MapReduce](/hadoop_map_reduce)
+>   <ins><i>Keywords:</i></ins> Google FS (master, chunkservers), Hadoop, HDFS (NameNode, DataNode), MapReduce (master, workers)
+#### 2. [Apache Spark](/apache_spark)
+>  <ins><i>Keywords:</i></ins> Pig, Hive, Spark (RDDs, transformations, actions, lineage graph, fault-tolerance, persist, driver, workers, stages, dependencies, tasks, partition)
+#### 3. [Spark SQL](/spark_sql)
+>  <ins><i>Keywords:</i></ins> Shark, DataFrames (DSL, cache, UDFs), Catalyst (tree, rule, catalyst in spark-sql)
+
+</details>
 
 ### Машинное обучение на больших данных
+<details>
+  <summary>Список тем</summary>
 
-4. Spark MLLib Overview
-5. Stochastic Gradient Descent, Linear Models, Neural Networks
-6. Hyperparameters Optimization
-7. Gradient Boosting Decision Tree
-8. Word2Vec, k-Nearest Neighbors
-9. Collaborative Filtering (ALS)
-10. Latent Dirichlet Allocation
-11. Dimensionality Reduction
-12. Online Learning
-13. Algorithms on Graphs
+#### 4. [Distributed ML Introduction](/distributed_ml_intro)
+>  <ins><i>Keywords:</i></ins> Stochastic Gradient Descent, Data/Model Parallelism, General Purpose Distributed Computing(MapReduce, MR SGD, SparkNet, MLlib), Natively Distributed ML Systems (Parameter Server, DistBelief, TensorFlow, AllReduce, Horovod)
+#### 5. [Categorical Features in Large Scale ML](/sgd_logreg_nn)
+>  <ins><i>Keywords:</i></ins> One-hot encoding, Cross features, Factorization Machines (FM, FFM), Neural Networks (Deep Crossing, Deep & Cross, DeepFM)
+#### 6. [Gradient Boosting Decision Tree](/gradient_boosting)
+>  <ins><i>Keywords:</i></ins> Categorical features (Naive Bayes, Mean Target Encoding), PLANET, XGBoost, CatBoost, SHAP values
+#### 7. Hyperparameters Optimization
+#### 8. Word2Vec, k-Nearest Neighbors
+#### 9. Collaborative Filtering (ALS)
+#### 10. Latent Dirichlet Allocation
+#### 11. Dimensionality Reduction
+#### 12. Online Learning
+#### 13. Algorithms on Graphs
+
+</details>
 
 ### Проведение онлайн экспериментов
+<details>
+  <summary>Список тем</summary>
 
-14. How to conduct AB Tests (Experiment Design, Execution, Analysis)
-15. Results Analysis ((Multiple) Hypothesis testing, Sensitivity, Power)
-16. Heterogeneous Treatment Effect
+#### 14. How to conduct AB Tests (Experiment Design, Execution, Analysis)
+#### 15. Results Analysis ((Multiple) Hypothesis testing, Sensitivity, Power)
+#### 16. Heterogeneous Treatment Effect
+
+</details>
 
 ## Практики
 
@@ -56,11 +63,30 @@ Materials for "Machine Learning on Big Data" course
 
 #### Deadlines
 
-* PR с выполненным заданием должен быть отправлен на проверку не позднее времени начала занятия, следующего за занятием, на котором было выдано задание.
+* PR с выполненным заданием должен быть отправлен на проверку не позднее чем через 8 дней после того как было выдано задание.
 * По прошествии дедлайна, в рамках PR можно только исправлять замечания, но не отправлять на проверку новые задачи.
 
 ## Домашние задания
 
-1. TBD
+### Контесты
+
+1. [Kaggle: CTR Prediction](https://www.kaggle.com/c/mlbd-20-ctr-prediction-1)
 2. TBD
-3. TBD
+
+#### Общая информация
+
+1. Для решения контестов можно использовать любые методы/приемы/фрэймворки, которые обсуждались на лекциях.
+2. После окончания контеста нужно будет написать отчет об итоговом решении.
+
+
+## Docker
+
+В рамках курса мы будем использовать Docker container с Hadoop, для того чтобы эмулировать кластер и запускать различные примеры.
+
+См. [Docker Tutorial](/docker/Docker-tutorial.md)
+
+## Datasets
+
+* [MovieLens](https://drive.google.com/file/d/1uNG51xzfUahzexIv-Ka1ylpvn8mVdFOQ/view?usp=sharing)
+* [Criteo Ads](https://labs.criteo.com/2014/02/download-kaggle-display-advertising-challenge-dataset/)
+
