@@ -30,7 +30,7 @@ Materials for "Machine Learning on Big Data" course
 >  <ins><i>Keywords:</i></ins> Categorical features (Naive Bayes, Mean Target Encoding), PLANET, XGBoost, CatBoost, SHAP values
 #### 7. [Hyperparameters Optimization](/hyperparameters_optimization)
 >  <ins><i>Keywords:</i></ins> Grid Search, Random Search (low effective dimensionality), Bayesian Optimization (Gaussian Process, surrogate, acquisition), Predictive Termination, Hyperband (successive halving), Multi-task Bayesian Optimization
-#### 8. Recommender Systems
+#### 8. [Recommender Systems](/recsys)
 >  <ins><i>Keywords:</i></ins> Simple RS (Item/User-based, Content based), Ranking Metrics, Matrix Factorization (SVD, PMF, ALS, iALS, Incremental ALS, Neural CF), Large Scale RS (MF with Distributed SGD, PytorchBigGraph, GraphVite), Ranking losses (BPR, WARP)
 #### 9. Similar Objects Search
 #### 10. Latent Dirichlet Allocation
