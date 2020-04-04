@@ -30,8 +30,9 @@ Materials for "Machine Learning on Big Data" course
 >  <ins><i>Keywords:</i></ins> Categorical features (Naive Bayes, Mean Target Encoding), PLANET, XGBoost, CatBoost, SHAP values
 #### 7. [Hyperparameters Optimization](/hyperparameters_optimization)
 >  <ins><i>Keywords:</i></ins> Grid Search, Random Search (low effective dimensionality), Bayesian Optimization (Gaussian Process, surrogate, acquisition), Predictive Termination, Hyperband (successive halving), Multi-task Bayesian Optimization
-#### 8. Word2Vec, k-Nearest Neighbors
-#### 9. Collaborative Filtering (ALS)
+#### 8. [Recommender Systems](/recsys)
+>  <ins><i>Keywords:</i></ins> Simple RS (Item/User-based, Content based), Ranking Metrics, Matrix Factorization (SVD, PMF, ALS, iALS, Incremental ALS, Neural CF), Large Scale RS (MF with Distributed SGD, PytorchBigGraph, GraphVite), Ranking losses (BPR, WARP)
+#### 9. Similar Objects Search
 #### 10. Latent Dirichlet Allocation
 #### 11. Dimensionality Reduction
 #### 12. Online Learning
@@ -57,10 +58,11 @@ Materials for "Machine Learning on Big Data" course
 
 Задания находятся в `<topic>/notebooks/<practice_name>.ipynb`.
 
-1. Убедитесь, что ваш fork репозиторий содержит все актуальные изменения данного репозитория ([GitHub Help: Syncing a fork](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/syncing-a-fork))
-2. Выполните задание в отдельной ветке, например, `practice_1` ([GitHub Help: Branches](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging)).
-3. Сделайте Pull Request (`<current_practice_branch> -> master`), назначьте PR на ishugaepov ([GitHub Help: PRs](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request)). 
-4. После проверки PR, ревьювер либо оставляет комментарии с замечаниями либо мерджит текущую ветку в мастер вашего репозитория.
+1. Убедитесь, что ishugaepov добавлен в список коллабораторов вашего форка (`Settings -> Manage access -> Invite a collaborator`)
+2. Убедитесь, что ваш fork репозиторий содержит все актуальные изменения данного репозитория ([GitHub Help: Syncing a fork](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/syncing-a-fork))
+3. Выполните задание в отдельной ветке, например, `practice_1` ([GitHub Help: Branches](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging)).
+4. Сделайте Pull Request (`<current_practice_branch> -> master`), добавьте ishugaepov в Assignees ([GitHub Help: PRs](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request)). 
+5. После проверки PR, ревьювер либо оставляет комментарии с замечаниями либо мерджит текущую ветку в мастер вашего репозитория.
 
 #### Deadlines
 
