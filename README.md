@@ -22,21 +22,23 @@ Materials for "Machine Learning on Big Data" course
 <details>
   <summary>Список тем</summary>
 
-#### 4. [Distributed ML Introduction](/distributed_ml_intro)
+#### 1. [Distributed ML Introduction](/distributed_ml_intro)
 >  <ins><i>Keywords:</i></ins> Stochastic Gradient Descent, Data/Model Parallelism, General Purpose Distributed Computing(MapReduce, MR SGD, SparkNet, MLlib), Natively Distributed ML Systems (Parameter Server, DistBelief, TensorFlow, AllReduce, Horovod)
-#### 5. [Categorical Features in Large Scale ML](/sgd_logreg_nn)
+#### 2. [Categorical Features in Large Scale ML](/sgd_logreg_nn)
 >  <ins><i>Keywords:</i></ins> One-hot encoding, Cross features, Factorization Machines (FM, FFM), Neural Networks (Deep Crossing, Deep & Cross, DeepFM)
-#### 6. [Gradient Boosting Decision Tree](/gradient_boosting)
+#### 3. [Gradient Boosting Decision Tree](/gradient_boosting)
 >  <ins><i>Keywords:</i></ins> Categorical features (Naive Bayes, Mean Target Encoding), PLANET, XGBoost, CatBoost, SHAP values
-#### 7. [Hyperparameters Optimization](/hyperparameters_optimization)
+#### 4. [Hyperparameters Optimization](/hyperparameters_optimization)
 >  <ins><i>Keywords:</i></ins> Grid Search, Random Search (low effective dimensionality), Bayesian Optimization (Gaussian Process, surrogate, acquisition), Predictive Termination, Hyperband (successive halving), Multi-task Bayesian Optimization
-#### 8. [Recommender Systems](/recsys)
+#### 5. [DNN Compression and Acceleration](/dnn_compression_acceleration)
+> <ins><i>Keywords:</i></ins> Quantinization, Knowledge Distillation, Pruning (one-shot, iterative, Lottery Ticket Hipothesis), Deep Compression, DeepGBM
+#### 6. [Recommender Systems](/recsys)
 >  <ins><i>Keywords:</i></ins> Simple RS (Item/User-based, Content based), Ranking Metrics, Matrix Factorization (SVD, PMF, ALS, iALS, Incremental ALS, Neural CF), Large Scale RS (MF with Distributed SGD, PytorchBigGraph, GraphVite), Ranking losses (BPR, WARP)
-#### 9. Similar Objects Search
-#### 10. Latent Dirichlet Allocation
-#### 11. Dimensionality Reduction
-#### 12. Online Learning
-#### 13. Algorithms on Graphs
+#### 7. Similar Objects Search
+#### 8. Latent Dirichlet Allocation
+#### 9. Dimensionality Reduction
+#### 10. Online Learning
+#### 11. Algorithms on Graphs
 
 </details>
 
@@ -44,9 +46,9 @@ Materials for "Machine Learning on Big Data" course
 <details>
   <summary>Список тем</summary>
 
-#### 14. How to conduct AB Tests (Experiment Design, Execution, Analysis)
-#### 15. Results Analysis ((Multiple) Hypothesis testing, Sensitivity, Power)
-#### 16. Heterogeneous Treatment Effect
+#### 1. How to conduct AB Tests (Experiment Design, Execution, Analysis)
+#### 2. Results Analysis ((Multiple) Hypothesis testing, Sensitivity, Power)
+#### 3. Heterogeneous Treatment Effect
 
 </details>
 
