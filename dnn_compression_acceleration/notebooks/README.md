@@ -15,7 +15,7 @@
 
 ## Файлы
 
-### [Teacher Model](/teacher_model_train_full.ipynb) 
+### [Teacher Model](./teacher_model_train_full.ipynb) 
 
 Обучение модели учителя (не нужно запускать, но нужно посмотреть для понимания задания).
 
@@ -25,7 +25,7 @@
 
 В каждой строке `<id>,<target>`, где `id` --- идентификатор записи в датасете Criteo.
 
-### [Student Model](/student_model_train.ipynb)
+### [Student Model](./student_model_train.ipynb)
 
 Тетрадка с заданием.
 
