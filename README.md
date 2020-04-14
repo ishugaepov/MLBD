@@ -31,7 +31,7 @@ Materials for "Machine Learning on Big Data" course
 #### 4. [Hyperparameters Optimization](/hyperparameters_optimization)
 >  <ins><i>Keywords:</i></ins> Grid Search, Random Search (low effective dimensionality), Bayesian Optimization (Gaussian Process, surrogate, acquisition), Predictive Termination, Hyperband (successive halving), Multi-task Bayesian Optimization
 #### 5. [DNN Compression and Acceleration](/dnn_compression_acceleration)
-> <ins><i>Keywords:</i></ins> Quantinization, Knowledge Distillation, Pruning (one-shot, iterative, Lottery Ticket Hypothesis), Deep Compression, DeepGBM
+> <ins><i>Keywords:</i></ins> Quantization, Knowledge Distillation, Pruning (one-shot, iterative, Lottery Ticket Hypothesis), Deep Compression, DeepGBM
 #### 6. [Recommender Systems](/recsys)
 >  <ins><i>Keywords:</i></ins> Simple RS (Item/User-based, Content based), Ranking Metrics, Matrix Factorization (SVD, PMF, ALS, iALS, Incremental ALS, Neural CF), Large Scale RS (MF with Distributed SGD, PytorchBigGraph, GraphVite), Ranking losses (BPR, WARP)
 #### 7. Similar Objects Search
