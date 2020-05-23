@@ -47,7 +47,8 @@ Materials for "Machine Learning on Big Data" course
 <details>
   <summary>Список тем</summary>
 
-#### 1. How to conduct AB Tests (Experiment Design, Execution, Analysis)
+#### 1. [How to conduct AB Tests (Experiment Design, Execution, Analysis)](/controlled_experiments)
+>  <ins><i>Keywords:</i></ins> Offline Evaluation (hypothesis testing, 5x2 cv test, testing over multiple datasets), Online Evaluation
 #### 2. Results Analysis ((Multiple) Hypothesis testing, Sensitivity, Power)
 #### 3. Heterogeneous Treatment Effect
 
