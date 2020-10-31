@@ -1,4 +1,4 @@
-# MLBD
+# Machine Learning on BigData
 Materials for "Machine Learning on Big Data" course
 
 ## Syllabus
