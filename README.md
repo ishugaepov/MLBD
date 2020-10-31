@@ -18,7 +18,7 @@ Materials for "Machine Learning on Big Data" course
 
 </details>
 
-### Machine Learning on Big Data
+### Large Scale Machine Learning
 <details>
   <summary>List of topics</summary>
 
