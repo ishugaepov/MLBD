@@ -1,13 +1,13 @@
-# MLBD
+# Machine Learning on BigData
 Materials for "Machine Learning on Big Data" course
 
-## Программа курса
+## Syllabus
 
 [Introduction](/intro/slides)
 
-### Методы и системы обработки больших данных
+### Tools and Systems for Big Data Storage and Processing 
 <details>
-  <summary>Список тем</summary>
+  <summary>List of topics</summary>
 
 #### 1. [Hadoop and MapReduce](/hadoop_map_reduce)
 >   <ins><i>Keywords:</i></ins> Google FS (master, chunkservers), Hadoop, HDFS (NameNode, DataNode), MapReduce (master, workers)
@@ -18,9 +18,9 @@ Materials for "Machine Learning on Big Data" course
 
 </details>
 
-### Машинное обучение на больших данных
+### Large Scale Machine Learning
 <details>
-  <summary>Список тем</summary>
+  <summary>List of topics</summary>
 
 #### 1. [Distributed ML Introduction](/distributed_ml_intro)
 >  <ins><i>Keywords:</i></ins> Stochastic Gradient Descent, Data/Model Parallelism, General Purpose Distributed Computing(MapReduce, MR SGD, SparkNet, MLlib), Natively Distributed ML Systems (Parameter Server, DistBelief, TensorFlow, AllReduce, Horovod)
@@ -43,9 +43,9 @@ Materials for "Machine Learning on Big Data" course
 
 </details>
 
-### Проведение онлайн экспериментов
+### Online Controlled Experiments
 <details>
-  <summary>Список тем</summary>
+  <summary>List of topics</summary>
 
 #### 1. [How to conduct AB Tests (Experiment Design, Execution, Analysis)](/controlled_experiments)
 >  <ins><i>Keywords:</i></ins> Offline Evaluation (hypothesis testing, 5x2 cv test, testing over multiple datasets), Online Evaluation
