@@ -3,7 +3,7 @@ Materials for "Machine Learning on Big Data" course
 
 ## Syllabus
 
-[Introduction](/intro/slides)
+[Introduction](/lectures/intro/slides)
 
 ### Tools and Systems for Big Data Storage and Processing 
 <details>
