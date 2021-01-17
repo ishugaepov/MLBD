@@ -9,11 +9,11 @@ Materials for "Machine Learning on Big Data" course
 <details>
   <summary>List of topics</summary>
 
-#### 1. [Hadoop and MapReduce](/hadoop_map_reduce)
+#### 1. Hadoop and MapReduce
 >   <ins><i>Keywords:</i></ins> Google FS (master, chunkservers), Hadoop, HDFS (NameNode, DataNode), MapReduce (master, workers)
-#### 2. [Apache Spark](/apache_spark)
+#### 2. Apache Spark
 >  <ins><i>Keywords:</i></ins> Pig, Hive, Spark (RDDs, transformations, actions, lineage graph, fault-tolerance, persist, driver, workers, stages, dependencies, tasks, partition)
-#### 3. [Spark SQL](/spark_sql)
+#### 3. Spark SQL
 >  <ins><i>Keywords:</i></ins> Shark, DataFrames (DSL, cache, UDFs), Catalyst (tree, rule, catalyst in spark-sql)
 
 </details>
@@ -22,19 +22,19 @@ Materials for "Machine Learning on Big Data" course
 <details>
   <summary>List of topics</summary>
 
-#### 1. [Distributed ML Introduction](/distributed_ml_intro)
+#### 1. Distributed ML Introduction
 >  <ins><i>Keywords:</i></ins> Stochastic Gradient Descent, Data/Model Parallelism, General Purpose Distributed Computing(MapReduce, MR SGD, SparkNet, MLlib), Natively Distributed ML Systems (Parameter Server, DistBelief, TensorFlow, AllReduce, Horovod)
-#### 2. [Categorical Features in Large Scale ML](/sgd_logreg_nn)
+#### 2. Categorical Features in Large Scale ML
 >  <ins><i>Keywords:</i></ins> One-hot encoding, Cross features, Factorization Machines (FM, FFM), Neural Networks (Deep Crossing, Deep & Cross, DeepFM)
-#### 3. [Gradient Boosting Decision Tree](/gradient_boosting)
+#### 3. Gradient Boosting Decision Tree
 >  <ins><i>Keywords:</i></ins> Categorical features (Naive Bayes, Mean Target Encoding), PLANET, XGBoost, CatBoost, SHAP values
-#### 4. [Hyperparameters Optimization](/hyperparameters_optimization)
+#### 4. Hyperparameters Optimization
 >  <ins><i>Keywords:</i></ins> Grid Search, Random Search (low effective dimensionality), Bayesian Optimization (Gaussian Process, surrogate, acquisition), Predictive Termination, Hyperband (successive halving), Multi-task Bayesian Optimization
-#### 5. [DNN Compression and Acceleration](/dnn_compression_acceleration)
+#### 5. DNN Compression and Acceleration
 > <ins><i>Keywords:</i></ins> Quantization, Knowledge Distillation, Pruning (one-shot, iterative, Lottery Ticket Hypothesis), Deep Compression, DeepGBM
-#### 6. [Recommender Systems](/recsys)
+#### 6. Recommender Systems
 >  <ins><i>Keywords:</i></ins> Simple RS (Item/User-based, Content based), Ranking Metrics, Matrix Factorization (SVD, PMF, ALS, iALS, Incremental ALS, Neural CF), Large Scale RS (MF with Distributed SGD, PytorchBigGraph, GraphVite), Ranking losses (BPR, WARP)
-#### 7. [Nearest Neighbors Search](/nearest_neighbor_search)
+#### 7. Nearest Neighbors Search
 >  <ins><i>Keywords:</i></ins> Exact-kNN, Approximate NN (eps-NN), (Hierarchical) Navigatable Small World, LSH (random projections, minhash), Learning to Hash (Deep Supervised Hashing), Annoy, FAISS, ANN-benchmarks and evaluation
 #### 8. Latent Dirichlet Allocation
 #### 9. Dimensionality Reduction
@@ -47,7 +47,7 @@ Materials for "Machine Learning on Big Data" course
 <details>
   <summary>List of topics</summary>
 
-#### 1. [How to conduct AB Tests (Experiment Design, Execution, Analysis)](/controlled_experiments)
+#### 1. How to conduct AB Tests (Experiment Design, Execution, Analysis)
 >  <ins><i>Keywords:</i></ins> Offline Evaluation (hypothesis testing, 5x2 cv test, testing over multiple datasets), Online Evaluation
 #### 2. Results Analysis ((Multiple) Hypothesis testing, Sensitivity, Power)
 #### 3. Heterogeneous Treatment Effect
