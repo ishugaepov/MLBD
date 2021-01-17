@@ -2,3 +2,5 @@
 .ipynb_checkpoints
 __pycache__
 data/*
+spark-2.4.4-bin-hadoop2.6.tgz
+vk/*
