@@ -9,7 +9,7 @@ Materials for "Machine Learning on Big Data" course
 <details>
   <summary>List of topics</summary>
 
-#### 1. Hadoop and MapReduce
+#### 1. [Hadoop and MapReduce](/lectures/hadoop_mapreduce)
 >   <ins><i>Keywords:</i></ins> Google FS (master, chunkservers), Hadoop, HDFS (NameNode, DataNode), MapReduce (master, workers)
 #### 2. Apache Spark
 >  <ins><i>Keywords:</i></ins> Pig, Hive, Spark (RDDs, transformations, actions, lineage graph, fault-tolerance, persist, driver, workers, stages, dependencies, tasks, partition)
