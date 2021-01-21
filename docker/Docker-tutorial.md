@@ -39,7 +39,7 @@ Your container might have memory limits that are different from the actual limit
 
 ### PySpark Application Example
 
-Для того чтобы убедиться в том, что все работает нормально, можно запустить пример в тетрадке ```/hadoop_map_reduce/notebooks/start_spark_example.ipynb```, который запустит небольшое pyspark приложение.
+Для того чтобы убедиться в том, что все работает нормально, можно запустить пример в тетрадке ```/lectures/hadoop_mapreduce/notebooks/start_spark_example.ipynb```, который запустит небольшое pyspark приложение.
 
 Если все работает корректно, то в браузере по адресу ```localhost:8088``` будет доступен Yarn, в котором можно состояние кластера и задач.
 
