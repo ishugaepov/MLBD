@@ -1,6 +1,8 @@
 FROM cloudera/quickstart:latest
 
-RUN yum install -y https://repo.ius.io/ius-release-el6.rpm
+# RUN yum install -y https://repo.ius.io/ius-release-el6.rpm
+
+RUN yum install https://repo.ius.io/ius-release-el7.rpm https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
 
 RUN yum install -y python35u python35u-pip python35u-devel
 RUN yum -y install gcc-c++ freetype-devel libpng-devel atlas-devel blas-devel pandoc ; yum clean all
