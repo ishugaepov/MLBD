@@ -1,13 +1,20 @@
 FROM cloudera/quickstart:latest
 
-# RUN yum install -y https://repo.ius.io/ius-release-el6.rpm
+COPY CentOS-Base.repo /etc/yum.repos.d/
 
-RUN yum install https://repo.ius.io/ius-release-el7.rpm https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
+RUN yum -y install epel-release
+RUN yum -y install sqlite-devel
+RUN yum -y update curl && cd /usr/src && \
+ curl -1 https://www.python.org/ftp/python/3.5.9/Python-3.5.9.tgz -o Python-3.5.9.tgz && \
+ tar xzf Python-3.5.9.tgz && \
+ cd Python-3.5.9 && \
+ ./configure --enable-loadable-sqlite-extensions && \
+ make altinstall
 
-RUN yum install -y python35u python35u-pip python35u-devel
 RUN yum -y install gcc-c++ freetype-devel libpng-devel atlas-devel blas-devel pandoc ; yum clean all
 
-RUN pip3.5 install -U pip
+#RUN pip3.5 install -U pip
+
 RUN pip3.5 install -U jupyter nano
 RUN pip3.5 install -U py4j
 
