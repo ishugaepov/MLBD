@@ -22,11 +22,7 @@ Your container might have memory limits that are different from the actual limit
 
 Для того чтобы запустить Docker контейнер с Hadoop нужно сделать следующее:
 1. ```cd ./docker```
-2. ```bash build.sh``` 
-3. ```bash run.sh```
-
-**Замечание**:
-После того как образ был успешно создан, для перезапуска контейнера достаточно пользоваться только последней командой.
+2. ```bash run.sh```
 
 ### Run Jupyter
 После того как контейнер запустится, нужно в командной строке ввести 
