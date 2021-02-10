@@ -1,4 +1,3 @@
-docker pull voudy/mlbd
 docker run \
         --rm \
 	--hostname=quickstart.cloudera \
@@ -11,5 +10,5 @@ docker run \
 	-p 7180:7180 \
 	-p 80:80 \
 	-v $(pwd)/..:/workspace \
-	voudy/mlbd \
+	ishugaepov/mlbd \
 	/usr/bin/docker-quickstart
